@@ -1,5 +1,6 @@
 # Hydro-stuff
-This repo contains a curated collecting of software for Hydrography
+This repo contains custom Python scripts for bathymetric data manipulation
+
 
 ## **Survey preparations** 
 https://github.com/simondreutter/cruisetools
