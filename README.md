@@ -6,7 +6,6 @@ https://github.com/simondreutter/cruisetools
 https://github.com/capt-clay10/MBES-Planning-Tool
 
 
-
 ## Processing
 
 https://github.com/CIDCO-dev/OpenSidescan
