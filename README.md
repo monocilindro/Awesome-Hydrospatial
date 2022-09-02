@@ -1,6 +1,6 @@
 
 <span style="font-weight:700;font-size:30px">
-    **Awesome Hydrospatial**
+    Awesome Hydrospatial
 </span>
 
 
