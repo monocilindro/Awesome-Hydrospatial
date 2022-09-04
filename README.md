@@ -2,8 +2,6 @@
 
 # **Awesome Hydrospatial**
 
-
-
 An awesome and curated list of applications, tools, and documentation aimed to "map" the publicly available resources for the Ocean Mapping community.
 
 Contributions are welcome. Add links through pull requests or create an issue to start a discussion.
@@ -11,22 +9,23 @@ Contributions are welcome. Add links through pull requests or create an issue to
 <img src="./images/Hydrospatial.jpg" alt="Getting started" />
 
 
-  [**Awesome Hydrospatial**](#awesome-hydrospatial)
-  - [Free and Open Software and for Ocean Mapping (FOSSOM)](#free-and-open-software-and-for-ocean-mapping-fossom)
-    - [Survey preparations](#survey-preparations)
-    - [Hydrographic data processing](#hydrographic-data-processing)
-  - [QC/AQ](#qcaq)- [**Awesome Hydrospatial**](#awesome-hydrospatial)
+
+ 
   - [**Free and Open Software for Ocean Mapping (FOSSOM)**](#free-and-open-software-for-ocean-mapping-fossom)
-    - [Survey planning and design](#survey-planning-and-design)
-    - [**Data acquisition**](#data-acquisition)
+    - [Survey planning and preparations](#survey-planning-and-preparations)
+    - [Data acquisition](#data-acquisition)
     - [Hydrographic data processing](#hydrographic-data-processing)
-    - [Specialized tools for multibeam backscatter processing](#specialized-tools-for-multibeam-backscatter-processing)
+      - [**Specialized tools for multibeam backscatter processing**](#specialized-tools-for-multibeam-backscatter-processing)
     - [Quality Control / Quality Assurance](#quality-control--quality-assurance)
+    - [Data management and visualization](#data-management-and-visualization)
+    - [Tools for geospatial analysis and generation of derived products](#tools-for-geospatial-analysis-and-generation-of-derived-products)
+    - [Python libraries, modules and other scripts](#python-libraries-modules-and-other-scripts)
   - [Python decoders](#python-decoders)
   - [Scripts](#scripts)
   - [Cartographic applications](#cartographic-applications)
-  - [Hydrospatial data management](#hydrospatial-data-management)
+  - [Other licenced but free tools](#other-licenced-but-free-tools)
   - [Visualization](#visualization)
+  - [License and commercial hydrographic software](#license-and-commercial-hydrographic-software)
   - [Other interesting links](#other-interesting-links)
     - [Reference documentation](#reference-documentation)
     - [Conferences](#conferences)
@@ -34,12 +33,6 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Web sites](#web-sites)
     - [Youtube channels](#youtube-channels)
     - [Vimeo channels](#vimeo-channels)
-  - [Python decoders](#python-decoders)
-  - [Scripts](#scripts)
-  - [Cartographic applications](#cartographic-applications)
-  - [Hydrospatial data management](#hydrospatial-data-management)
-  - [Visualization](#visualization)
-  - [Other interesting links](#other-interesting-links)
 
 
 
@@ -69,6 +62,7 @@ FOSSOM may be used to optimize survey design, troubleshoot and resolve multibeam
 
 - [Kluster](https://github.com/noaa-ocs-hydrography/kluster) is a Python-based software that provides a fully open source hydrographic processing package to produce accessible bathymetry and backscatter products in support of ocean mapping. Kluster runs either on a GUI and through command line.
 - [Sonar2MAT](https://cmst.curtin.edu.au/products/sonar2mat-software/) is a program that converts selected sonar files to MATLAB (.mat) data format to allow advanced data analysis and algorithm development. The convertor supports Reson (s7k), Kongsberg (.all, .wcd), Odom/Imagenex (.837, .83b and .83p), Generic Sensor Format (.gsf), Geoswath swamp and raw files (.swp, .rdf), MSTIFF (.mst) and eXtended Triton Format (.xtf).
+- [CloudCompare](https://www.danielgm.net/cc/), is a 3D point cloud processing software. It can also handle triangular meshes and calibrated images. Although is commonly used in laser scanner and LIDAR data processing and photogrammetry, it is being utilized used for high definition 3D structure reconstruction from multibeam data.   
 
 
 #### **Specialized tools for multibeam backscatter processing**
@@ -96,12 +90,16 @@ FOSSOM may be used to optimize survey design, troubleshoot and resolve multibeam
 - [QGIS](https://www.qgis.org/) is a a reference cross-platform desktop geographic information system (GIS) application that supports viewing, editing, printing, and analysis of geospatial data. The numerous community of users support QGIS. Plugins are developed by independent organizations and developers, providing QGIS additional functionalities.
 - [Raster Attribute Table QGIS Plugin](https://github.com/noaa-ocs-hydrography/qgis-raster-attribute-table-plugin) allows the user to display and edit Raster Attribute Tables (RATs) for discrete rasters using paletted/unique-values renderer. Useful for Geographic Object-Based Image Analysis (GEOBIA) in seafloor classication.
 
-The plugin offers also limited support for continuous raster RATs using the single-band/psesudocolor renderer.
-
-
 - [Whitebox Tools](https://www.whiteboxgeo.com/) (WBT) is a package for geospatial analysis that can be embedded into other software in order to facilitate building other types of applications.WBT contains over 500 geospatial analysis tools.
 - [GRASS GIS](https://grass.osgeo.org/) is a multiplatform GIS software suite used for geospatial data management and analysis, image processing, producing graphics and maps, spatial and temporal modeling, and visualizing. It comes with a temporal framework for advanced time series processing and a Python API for rapid geospatial programming.
-- 
+  
+  ## Enhanced visualization
+- The [CCOM Data Visualization and Interaction Tools](https://ccom.unh.edu/vislab/tools/), developed at the Visualization Laboratory, include VR Point Cloud Editor, Point Cloud Plugin for Unity, BAG Loader Unity Plugin, 3d Flight Unity Script and Coral Viz WebGl Viewer
+ - [CesiumJS](https://cesium.com/)  is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for time-dynamic data visualization. 
+- [TerriaJS](https://terria.io/) is a library based on CesiumJS for building rich, web-based geospatial data explorers, used to drive  Digital Earth Australia Map and NSW Spatial Digital Twin , among many any others. It falls back to 2D with Leaflet on systems that can't run CesiumJS.
+
+ - 
+https://github.com/klakar/potree_deploy
 
 ### Python libraries, modules and other scripts
 - [Bathycube](https://github.com/noaa-ocs-hydrography/bathycube) is a Python implementation of the CUBE module, Combined Uncertainty and Bathymetry Estimator. It only contains the cube grid/node objects, the original library included other data structures that were not translated here.
@@ -130,8 +128,7 @@ https://github.com/NoelDyer/Sounding-Selection
 [Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
 
 
-## Visualization
-https://github.com/klakar/potree_deploy
+
 
 
 ## License and commercial hydrographic software
