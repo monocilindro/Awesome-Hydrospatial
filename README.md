@@ -9,32 +9,30 @@ Contributions are welcome. Add links through pull requests or create an issue to
 <img src="./images/Hydrospatial.jpg" alt="Getting started" />
 
 
-
- 
+- [**Awesome Hydrospatial**](#awesome-hydrospatial)
   - [**Free and Open Software for Ocean Mapping (FOSSOM)**](#free-and-open-software-for-ocean-mapping-fossom)
     - [Survey planning and preparations](#survey-planning-and-preparations)
     - [Data acquisition](#data-acquisition)
     - [Hydrographic data processing](#hydrographic-data-processing)
       - [**Specialized tools for multibeam backscatter processing**](#specialized-tools-for-multibeam-backscatter-processing)
     - [Quality Control / Quality Assurance](#quality-control--quality-assurance)
-    - [Data management and visualization](#data-management-and-visualization)
-    - [Tools for geospatial analysis and generation of derived products](#tools-for-geospatial-analysis-and-generation-of-derived-products)
-    - [Python libraries, modules and other scripts](#python-libraries-modules-and-other-scripts)
-  - [Python decoders](#python-decoders)
-  - [Scripts](#scripts)
-  - [Cartographic applications](#cartographic-applications)
-  - [Other licenced but free tools](#other-licenced-but-free-tools)
-  - [Visualization](#visualization)
-  - [License and commercial hydrographic software](#license-and-commercial-hydrographic-software)
-  - [Other interesting links](#other-interesting-links)
+    - [Geospatial analysis and generation of derived products](#geospatial-analysis-and-generation-of-derived-products)
+    - [Data management and dissemination](#data-management-and-dissemination)
+    - [Enhanced visualization](#enhanced-visualization)
+    - [Coding scritps](#coding-scritps)
+      - [Python](#python)
+      - [R programming language](#r-programming-language)
+      - [Scripts and tools in other languages](#scripts-and-tools-in-other-languages)
+    - [Licenced but free tools](#licenced-but-free-tools)
+    - [Other interesting sites listing free resources](#other-interesting-sites-listing-free-resources)
+  - [Commercial hydrographic software](#commercial-hydrographic-software)
     - [Reference documentation](#reference-documentation)
-    - [Conferences](#conferences)
-    - [Hydrographic Offices / Mapping Agencies](#hydrographic-offices--mapping-agencies)
-    - [Web sites](#web-sites)
-    - [Youtube channels](#youtube-channels)
-    - [Vimeo channels](#vimeo-channels)
-
-
+    - [Hydrographic datasets online](#hydrographic-datasets-online)
+    - [Magazines and journals](#magazines-and-journals)
+    - [Miscellanea](#miscellanea)
+    - [Youtube and Videmo channels](#youtube-and-videmo-channels)
+ 
+ 
 
 ## **Free and Open Software for Ocean Mapping (FOSSOM)** 
 FOSSOM is developed by institutions, researchers and enthusiasts, providing tools that may be used to optimize survey design, troubleshoot and resolve multibeam system performance issues, derive products, and enhance data visualization and dissemination. 
@@ -60,7 +58,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 
 - [OpenSideScan](https://opensidescan.cidco.ca/) is a Windows software to visualize and manipulate sidescan sonar imagery files, investigate seabed features, and create underwater inventories. OpenSideScan is free and open source, with community support on GitHub, but also is commercialized in custom versions with extra features and commercial support.
 
-- [Kluster](https://github.com/noaa-ocs-hydrography/kluster) is a Python-based software that provides a fully open source hydrographic processing package to produce accessible bathymetry and backscatter products in support of ocean mapping. Kluster runs either on a GUI and through command line.
+- [Kluster](https://github.com/noaa-ocs-hydrography/kluster) is a Python-based software that provides a fully open source hydrographic processing package to produce accessible bathymetry and backscatter products in support of ocean mapping. Kluster runs either on a GUI and through command line, and provides a wide arrange of options for exporting processed data.
 - [Sonar2MAT](https://cmst.curtin.edu.au/products/sonar2mat-software/) is a program that converts selected sonar files to MATLAB (.mat) data format to allow advanced data analysis and algorithm development. The convertor supports Reson (s7k), Kongsberg (.all, .wcd), Odom/Imagenex (.837, .83b and .83p), Generic Sensor Format (.gsf), Geoswath swamp and raw files (.swp, .rdf), MSTIFF (.mst) and eXtended Triton Format (.xtf).
 - [CloudCompare](https://www.danielgm.net/cc/), is a 3D point cloud processing software. It can also handle triangular meshes and calibrated images. Although is commonly used in laser scanner and LIDAR data processing and photogrammetry, it is being utilized used for high definition 3D structure reconstruction from multibeam data.   
 
@@ -80,6 +78,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [CCOM MBES performance](https://vislab-ccom.unh.edu/~roland/acoustics/mbes_performance.html) is an online tool for assessing theorical the performance of an MBES from a set of given parameters.
 - [Hydroffice](https://www.hydroffice.org/) is an open-source collaborative effort led by the Center for Coastal and Ocean Mapping to develop a research software environment with applications to facilitate all phases of the ping-to-chart process: facilitate data acquisition, automate and enhance data processing, and improve hydrographic products.
 - [Pydro](https://svn.pydro.noaa.gov/Docs/html/Pydro/universe_overview.html) is a suite of software tools used to support hydrography and cartography. It is (almost exclusively) built from open source components as well as public domain custom developed software. Pydro is maintained by the Hydrographic Systems and Technology Branch (HSTB) to support NOAA operations (aiding our survey fleet) and is now made available for public use. Hydroffice tools are included within Pydro.
+- [Pure File Magic](http://pfmabe.software/) is Area Based editor to  view and edit hydro, bathy and topo data in 3D. PFMABE ingests most major sonar and lidar data types and allows for quick and easy analysis, cleaning and quality control.
 
 
 ### Geospatial analysis and generation of derived products 
@@ -90,81 +89,124 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [GRASS GIS](https://grass.osgeo.org/) is a multiplatform GIS software suite used for geospatial data management and analysis, image processing, producing graphics and maps, spatial and temporal modeling, and visualizing. It comes with a temporal framework for advanced time series processing and a Python API for rapid geospatial programming.
   
 ### Data management and dissemination
-- [CruisePack](https://www.ncei.noaa.gov/products/cruisepack)  is a data packaging and metadata gathering software tool to simplify submission of cruise-based data. CruisePack has a simple interface to control packager operation and metadata entry. Once the metadata entry is complete, data packaging is automatic. Although CruisePack is intended to comply with NCEI, it can be easily adapted for other organizations since it uses  a SQLite database under the hood.
 - [OpenRVDAS](https://github.com/OceanDataTools/openrvdas),  Open Research Vessel Data Acquisition System, is a software framework used for building custom data acquisition systems. OpenRVDAS target audiences are oceanographic research vessel operators and operators of other science-related platforms that have the need to record streaming data. OpenRVDAS is capable of reading data records from serial ports and network-aware sensors, optionally modifying those data records and streaming either the result to one or more destinations, including logfiles, network ports, databases, etc.
 
-  ## Enhanced visualization
+- [CruisePack](https://www.ncei.noaa.gov/products/cruisepack)  is a data packaging and metadata gathering software tool to simplify submission of cruise-based data. CruisePack has a simple interface to control packager operation and metadata entry. Once the metadata entry is complete, data packaging is automatic. Although CruisePack is intended to comply with NCEI, it can be easily adapted for other organizations since it uses  a SQLite database under the hood.
+
+
+### Enhanced visualization
 - The [CCOM Data Visualization and Interaction Tools](https://ccom.unh.edu/vislab/tools/), developed at the Visualization Laboratory, include VR Point Cloud Editor, Point Cloud Plugin for Unity, BAG Loader Unity Plugin, 3d Flight Unity Script and Coral Viz WebGl Viewer
  - [CesiumJS](https://cesium.com/)  is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for time-dynamic data visualization. 
 - [TerriaJS](https://terria.io/) is a library based on CesiumJS for building rich, web-based geospatial data explorers, used to drive  Digital Earth Australia Map and NSW Spatial Digital Twin , among many any others. It falls back to 2D with Leaflet on systems that can't run CesiumJS.
+- [Qgis2threejs](https://plugins.qgis.org/plugins/Qgis2threejs/) is a QGIS plugin to visualize DEM, vector data and point cloud data in 3D on web browsers. You can build various kinds of 3D objects and generate files for web publishing in simple procedure. In addition, you can save the 3D model in glTF format for 3DCG or 3D printing.
+- [Aerialod](https://ephtracy.github.io/index.html?page%3Daerialod#%3A~%3Atext%3D0.1%29%2Cand%2016-bit%20png%20images.) is a is a simple and interactive path tracer that allows 3D rendering from raster DEM.
 
- - 
-https://github.com/klakar/potree_deploy
+### Coding scritps
 
-### Python libraries, modules and other scripts
+#### Python 
 - [Bathycube](https://github.com/noaa-ocs-hydrography/bathycube) is a Python implementation of the CUBE module, Combined Uncertainty and Bathymetry Estimator. It only contains the cube grid/node objects, the original library included other data structures that were not translated here.
-- 
-https://github.com/GlacioHack/xdem
+- [gsfpy](https://github.com/UKHO/gsfpy) is the Python wrapper for the C implementation of the Generic Sensor Format library, developed at UKHO. Only for Linux.
+- [valschmidt/kmall](https://github.com/valschmidt/kmall) is a  python reader for the Kongsberg KMALL file format.
+- [ausseabed/kmall](https://github.com/ausseabed/kmall) is a fork of [valschmidt/kmall](https://github.com/valschmidt/kmall) by the Australian national seabed mapping coordination program (Ausseabed).
+- [merge svp ](https://github.com/ausseabed/merge-svp) is a command line utility for merging Sound Velocity Profiles into single file format supported by Teledyne CARIS.
+- [pyxtf](https://github.com/oysstu/pyxtf) is a python library for reading and writing eXtended Triton Format (XTF) files.
+- [NOAA OCS driver](https://github.com/noaa-ocs-hydrography/drivers/tree/main/HSTB/drivers) is a collection of Python file readers and supporting modules for hydrographic data access.
+- [CCOM-JHC common data readers ](https://github.com/CCOMJHC/common_data_readers) is a repository for common multibeam data parsers and readers (all/kmall/s7k).
+- [survey2ssdm ](https://github.com/pktrigg/survey2ssdm) imports a hydrographic survey to an opensource geopackage using the SSDM 2.0 schema
+- [pyAllConditioner](https://github.com/pktrigg/pyAllConditioner) is a
+python module to read and write a Kongsberg .ALL file making modifications along the way.
+- [echopype ](https://github.com/OSOceanAcoustics/echopype) is a package built to enable interoperability and scalability in ocean sonar data processing. Currently supporting SIMRAD EK60 file format.
+- [verde ](https://github.com/fatiando/verde)  is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids.
+- [pyCascadia](https://github.com/UCL/pyCascadia) is implementation of GEBCO cookbook remove-restore and other cleaning of topography/bathymetry by using pyGMT.
+- [cudem ](https://github.com/ciresdem/cudem) contains scripts and programs for use in generating and processing Digital Elevation Models.
+
+- [Sounding Selection](https://github.com/NoelDyer/Sounding-Selection) is an script to improve label-based generalization of bathymetry data for hydrographic sounding selection.
+- [Interactive-MBES-processing](https://github.com/SophieHCU/Interactive-MBES-processing) is a tool based on Python and Jupyter Notebook for interactive processing of Kongsberg MBES bathymetry and backscatter data.
+- [Ocean Data Science](https://github.com/hydroffice/ocean_data_science) provides an introductory course to Python and Ocean Data Science in the form of Jupyter Notebooks.
+- [OpenOceans](https://github.com/jonm3D/OpenOceans) helps you extract and analyze bathymetry from ICESat-2 lidar data.
+- [auvlib](https://github.com/nilsbore/auvlib) is a C++ and python library for reading AUV deployment data files and for processing and visualization of side scan and multibeam data.
+-  
+  
+#### R programming language
+
+- [R package oceanmap](https://github.com/rkbauer/R_Package_oceanmap) provides advanced plot tools for spatial (satellite, bathymetric and topographic) data.
+- [Rayshader](https://github.com/tylermorganwall/rayshader) is an open source package for producing 2D and 3D data visualizations in R. rayshader uses elevation data in a base R matrix and a combination of raytracing, hillshading algorithms, and overlays to generate stunning 2D and 3D maps. 
+- [MultiscaleDTM ](https://github.com/ailich/MultiscaleDTM) calculates multi-scale geomorphometric terrain attributes from regularly gridded DEM/bathymetry rasters.
+
+#### Scripts and tools in other languages
+
+- [MBES-lib](https://github.com/CIDCO-dev/MBES-lib) is CIDCO multibean function library.
+- [CoFFee](https://github.com/alexschimel/CoFFee) is a free and open-source MATLAB library/toolbox for parsing, visualizing, and processing multibeam sonar data processing.
+- [Grounds](https://github.com/alexschimel/Grounds) is a free and open-source app to visualize and analyze change between Digital Elevation Models (DEM), that is, bathymetric/topographic grids. Grounds uses the CoFFee multibeam data processing toolbox
+- [potree deploy](https://github.com/klakar/potree_deploy) provides scripts and files to build a barebones deployment package with the Potree viewer for EPT point clouds. Quite helpful to visualize  point clouds generated from Kluster in a web  browser.
+
+- [Patton's GRASS GIS and Geomatics Toolbox](https://github.com/ericrpatton/GRASS-GIS-and-Geomatics-Toolbox). This is a collection of GIS tools and bash scripts centered on using open source geomatics tools to solve various data formatting, visualization, and geoprocessing tasks in the context of seafloor swath bathymetry data processing.
+
+- [Ausseabed processing-pipeline](https://github.com/ausseabed/processing-pipeline) contains both the infrastructure-as-code and application for Ausseabed processing pipeline, including MBsystem, PDAL and CARIS scripts.
+- [Pingo ](https://github.com/PingoPlatform/Pingo) is a collection of code, tutorials and case studies for Marine Habitat Mapping, focused in backscatter analysis and machine learning techniques.
+- [Marine Geospatial Ecology Tools](https://mgel.env.duke.edu/mget/)  is a free, open-source geoprocessing ArcGIS 10.x toolbox that can help you solve a wide variety of marine research, conservation, and spatial planning problems.
+- [ArcGIS Code Sharing](https://codesharing.arcgis.com/) is an ESRI site to search, browse and use code, scripts , models and more.
 
 
+### Licenced but free tools
+- [Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
+- [Mirone ](http://joa-quim.pt/mirone/) is a MATLAB-based framework tool that allows the display and manipulation of a large number of grid/images formats through its interface with the GDAL library. Its main purpose is to provide users with an easy-to-use graphical interface to manipulate GMT grids. Joaquim also provides [MBsystem for Windows](http://joa-quim.pt/mirone/downloads/gmt.html), a lighter version of MBsystem with no GUI apps.
 
-## Python decoders
-
-https://github.com/CIDCO-dev/MBES-lib
-https://github.com/UKHO/gsfpy
-https://github.com/pktrigg/survey2ssdm
-https://github.com/ices-publications/SONAR-netCDF4
-https://github.com/wrenoud/hydrographic-libraries
-
-## Scripts
-https://github.com/monsterkittykitty/WaterColumnPlotter
-https://github.com/ericrpatton/GRASS-GIS-and-Geomatics-Toolbox
-
-
-## Cartographic applications
-https://github.com/NoelDyer/Sounding-Selection
-
-## Other licenced but free tools
-[Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
-
-
-
-
-
-## License and commercial hydrographic software
-- QPS 
-- EIVA Navisuite
-- CARIS
-- Beamworx
-- Hypack
-- SeaSFM
 - [CMST-GA MB Process](https://cmst.curtin.edu.au/products/multibeam-software/)i s a proprietary backscatter data processing tool coded in Matlab and developed and used by Curtin University Centre for Marine Science and Technology (CMST) and Geoscience Australia (GA) researchers to process Kongsberg and Reson MBES data
+- [Hydrobib](https://hydrocharting.com/hydrobib/) is a freeware collection of survey utilities, meant to be used as a “knowledge database” for placing various information and “hydrographic tools” for classroom sonar/hydrography training etc.
+- [DORIS](https://www.doris-svp.org/) displays and processes physical data (salinity, temperature, velocity) issued from sensors and/or databases. The generated sound velocity profiles can be exported either to a sonar system for real-time application or to a post-processing software suite.
+- [Ocean Data View ](https://odv.awi.de/) (ODV) is a software package for the interactive exploration, analysis and visualization of oceanographic and other geo-referenced profile, time-series, trajectory or sequence data.
+- [WebTide](https://www.bio-iob.gc.ca/science/research-recherche/ocean/webtide/index-en.php)  is a modelling tool to predict tides in Canada’s Atlantic, Arctic, and Pacific oceans. [WebTide Global Data](https://www.bio-iob.gc.ca/science/research-recherche/ocean/webtide/global-mondiale-en.php) provides tide prediction in a global scale
+- [Geoscience Australia Seabed Morphology Mapping Tools](https://www.ausseabed.gov.au/resources/morphology-tool) (GA-SaMMT) are a ArcGIS Pro Python toolbox using Python 3+ to map 10 bathymetric high and eight bathymetric low features according to the definitions of Dove et al. (2020).
+- [Benthic Terrain Modeler](https://coast.noaa.gov/digitalcoast/tools/btm.html) is an ARGIS 10.X toolboxto classify the benthic environment using bathymetric data. Users can create grids of bathymetric position index (BPI) and standardized BPIs, slope, and terrain ruggedness. Additionally, two terrain classification tools can create zone and structure classifications for defining the relationships between them.
+- [Relief Visualization Toolbox](https://iaps.zrc-sazu.si/en/rvt#v) is developed to help scientist visualize raster elevation model datasets. We narrowed down the selection to include techniques that have proven to be effective for identification of small scale features. 
 
-## Other interesting links
-https://github.com/javedali99/python-resources-for-earth-sciences
-https://github.com/sacridini/Awesome-Geospatial
-https://github.com/rvdata/NavManager
-https://riverscapes.xyz/Tools/
-https://github.com/Riverscapes/gcd/releases/tag/7.5.0
-https://www.viametoolkit.org/
-https://github.com/ignaciotb/SubmapsRegistration
-https://github.com/SophieHCU/Interactive-MBES-processing
-https://www.gpxsee.org/
+### Other interesting sites listing free resources
+- [OSHydro](https://www.oshydro.org/). The Open Source Hydro (OSHydro) is an initiative foster collaboration and open source software development within the hydrographic surveying and ocean mapping community.
+- [FOSS for Hydrographic Programmers](https://github.com/wrenoud/hydrographic-libraries) provides a list of libraries useful for hydrographic data processing
+- [qa4mbes-software-list](https://github.com/monocilindro/qa4mbes-software-list) provides a list of Bathymetry Survey Software Tools
+- [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial) is a long list of geospatial analysis tools. Geospatial analysis, or just spatial analysis, is an approach to applying statistical analysis and other analytic techniques to data which has a geographical or spatial aspect.
+
+
+## Commercial hydrographic software
+- [QPS](https://qps.nl/) provides software for the whole hydrographic workflow , from data collection to piloting, namely Qinsy,Qimera, Fledermaus, Qarto or Qastor.
+- [EIVA Navisuite](https://www.eiva.com/) is EIVA´s hydrographic suite that comprehends a wide array of solutions, from sensor setup (NaviPac),  data collection  (NaviScan), editing (Naviedit) or processing (NaviModel) as well as speficic QC/CA and automation tools 
+- [Teledyne CARIS](https://www.teledynecaris.com/en/home/) is a producer of hydrographic software for the "ping to chart" workflow, such as HIPS and SIPS, Bathy DataBase, HPD, Onboard360 or CARIS Mira AI, among other.
+- [Teledyne PDS](http://www.teledynemarine.com/pds) is a multipurpose software platform and supports a wide range of tasks within Hydrography, Dredge Guidance, Construction Support, Search & Recovery Operations and Port Entrance Monitoring.
+- [Beamworx](https://www.beamworx.com/)  is a software engineering and consultancy company focused on the Hydrographic Surveying and Offshore market. The Beamworx suite specializes in the acquisition, processing and integration of single- and multibeam echosounder data.
+- [Hypack](https://www.hypack.com/) is a  provider of hydrographic and dredging software worldwide, supporting over 400 different sensors and devices.
+- [Echoview](https://echoview.com/) software provides advanced hydroacoustic data processing software for fisheries scientists and environmental managers.
+
 
 ### Reference documentation
-- [The International Hydrographic Review](https://journals.lib.unb.ca/index.php/ihr/index) is an international journal by IHO publishing original works on all aspects of hydrography and associated subjects, ranging from the latest technical developments to history.
+- [International Hydrographic Organization](https://iho.int/iho_pubs/IHO_Download.htm) (IHO) publications.
+- [GeoHab](https://geohab.org/publications/), (Marine Geological and Biological Habitat Mapping) provides guidelines for multibeam backscatter and water column data processing.
+- [NOAA OCS publications](https://nauticalcharts.noaa.gov/publications/standards-and-requirements.html). The Hydrographic Surveys Specifications and Deliverables (HSSD) details the requirements for hydrographic surveys undertaken either by NOAA field units or by organizations under contract to the NOAA Office of Coast Survey. The  Field Procedures Manual (FPM) provides best practices and standard operating procedures for field units conducting, processing, and generating hydrographic survey deliverables.
+- [Australian Multibeam Guidelines](https://australian-multibeam-guidelines.github.io/) provide recommended procedures for survey planning, data acquisition and submission. They are designed for a range of audiences, from those experienced in seafloor mapping using multibeam sonar systems, non-experts who are developing mapping capabilities, and those contracting seafloor mapping surveys using swath systems.
 
-### Conferences
+- [Canadian Hydrographic Survey Management Guidelines
+](https://www.charts.gc.ca/data-gestion/guidelines-directrices/index-eng.html). The CHS Standards for Hydrographic Surveys is the document that specifies the requirements for hydrographic surveys in order that hydrographic data is collected according to specific standards. This document quantifies the accuracies required, depending on the use of the data.
+- [Kongsberg KMALL datagram description](https://www.kongsberg.com/maritime/support/document-and-downloads/software-downloads/). Latest version made public.
+- [SONAR-netCDF4 ](https://github.com/ices-publications/SONAR-netCDF4) convention for sonar data.
 
-### Hydrographic Offices / Mapping Agencies
-
-
-
-
-### Web sites 
-https://geohab.org/
-
-### Youtube channels
+### Hydrographic datasets online
 
 
-### Vimeo channels
+### Magazines and journals
+- [The International Hydrographic Review](https://journals.lib.unb.ca/index.php/ihr/index) is an international journal by IHO publishing original works on all aspects of hydrography and associated subjects, ranging from the latest technical developments to history
+- [Hydro International Magazine](https://www.hydro-international.com/magazine) is a magazine focusing on hydrography, seeking and publishing the opinion of leading hydrographers on the state of the market, technical issues and national and international policies.
+- [Hydrographische Nachrichten
+](https://dhyg.de/index.php/hydrographische-nachrichten) is the German for "Journal of Applied Hydrography". Many articles are published in English. 
+
+
+
+### Miscellanea
+-  [OpenCTD](https://github.com/OceanographyforEveryone/OpenCTD) is a low-cost, open-source CTD for researchers and citizen scientists.
+- [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
+
+
+
+### Youtube and Videmo channels
+
+
+
