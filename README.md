@@ -37,7 +37,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
 
 
 ## **Free and Open Software for Ocean Mapping (FOSSOM)** 
-FOSSOM may be used to optimize survey design, troubleshoot and resolve multibeam system performance issues, derive products, and enhance data visualization and dissemination. 
+FOSSOM is developed by institutions, researchers and enthusiasts, providing tools that may be used to optimize survey design, troubleshoot and resolve multibeam system performance issues, derive products, and enhance data visualization and dissemination. 
 
 
 ### Survey planning and preparations
@@ -81,18 +81,18 @@ FOSSOM may be used to optimize survey design, troubleshoot and resolve multibeam
 - [Hydroffice](https://www.hydroffice.org/) is an open-source collaborative effort led by the Center for Coastal and Ocean Mapping to develop a research software environment with applications to facilitate all phases of the ping-to-chart process: facilitate data acquisition, automate and enhance data processing, and improve hydrographic products.
 - [Pydro](https://svn.pydro.noaa.gov/Docs/html/Pydro/universe_overview.html) is a suite of software tools used to support hydrography and cartography. It is (almost exclusively) built from open source components as well as public domain custom developed software. Pydro is maintained by the Hydrographic Systems and Technology Branch (HSTB) to support NOAA operations (aiding our survey fleet) and is now made available for public use. Hydroffice tools are included within Pydro.
 
-### Data management and visualization
-- [CruisePack](https://www.ncei.noaa.gov/products/cruisepack)  is a data packaging and metadata gathering software tool to simplify submission of cruise-based data. CruisePack has a simple interface to control packager operation and metadata entry. Once the metadata entry is complete, data packaging is automatic. Although CruisePack is intended to comply with NCEI, it can be easily adapted for other organizations since it uses  a SQLite database under the hood.
-- [OpenRVDAS](https://github.com/OceanDataTools/openrvdas),  Open Research Vessel Data Acquisition System, is a software framework used for building custom data acquisition systems. OpenRVDAS target audiences are oceanographic research vessel operators and operators of other science-related platforms that have the need to record streaming data. OpenRVDAS is capable of reading data records from serial ports and network-aware sensors, optionally modifying those data records and streaming either the result to one or more destinations, including logfiles, network ports, databases, etc.
-  
 
-### Tools for geospatial analysis and generation of derived products 
+### Geospatial analysis and generation of derived products 
 - [QGIS](https://www.qgis.org/) is a a reference cross-platform desktop geographic information system (GIS) application that supports viewing, editing, printing, and analysis of geospatial data. The numerous community of users support QGIS. Plugins are developed by independent organizations and developers, providing QGIS additional functionalities.
 - [Raster Attribute Table QGIS Plugin](https://github.com/noaa-ocs-hydrography/qgis-raster-attribute-table-plugin) allows the user to display and edit Raster Attribute Tables (RATs) for discrete rasters using paletted/unique-values renderer. Useful for Geographic Object-Based Image Analysis (GEOBIA) in seafloor classication.
 
 - [Whitebox Tools](https://www.whiteboxgeo.com/) (WBT) is a package for geospatial analysis that can be embedded into other software in order to facilitate building other types of applications.WBT contains over 500 geospatial analysis tools.
 - [GRASS GIS](https://grass.osgeo.org/) is a multiplatform GIS software suite used for geospatial data management and analysis, image processing, producing graphics and maps, spatial and temporal modeling, and visualizing. It comes with a temporal framework for advanced time series processing and a Python API for rapid geospatial programming.
   
+### Data management and dissemination
+- [CruisePack](https://www.ncei.noaa.gov/products/cruisepack)  is a data packaging and metadata gathering software tool to simplify submission of cruise-based data. CruisePack has a simple interface to control packager operation and metadata entry. Once the metadata entry is complete, data packaging is automatic. Although CruisePack is intended to comply with NCEI, it can be easily adapted for other organizations since it uses  a SQLite database under the hood.
+- [OpenRVDAS](https://github.com/OceanDataTools/openrvdas),  Open Research Vessel Data Acquisition System, is a software framework used for building custom data acquisition systems. OpenRVDAS target audiences are oceanographic research vessel operators and operators of other science-related platforms that have the need to record streaming data. OpenRVDAS is capable of reading data records from serial ports and network-aware sensors, optionally modifying those data records and streaming either the result to one or more destinations, including logfiles, network ports, databases, etc.
+
   ## Enhanced visualization
 - The [CCOM Data Visualization and Interaction Tools](https://ccom.unh.edu/vislab/tools/), developed at the Visualization Laboratory, include VR Point Cloud Editor, Point Cloud Plugin for Unity, BAG Loader Unity Plugin, 3d Flight Unity Script and Coral Viz WebGl Viewer
  - [CesiumJS](https://cesium.com/)  is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for time-dynamic data visualization. 
