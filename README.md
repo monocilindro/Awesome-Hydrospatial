@@ -14,7 +14,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Survey planning and preparations](#survey-planning-and-preparations)
     - [Data acquisition](#data-acquisition)
     - [Hydrographic data processing](#hydrographic-data-processing)
-      - [***Specialized tools for multibeam backscatter processing***](#specialized-tools-for-multibeam-backscatter-processing)
+      - [*Specialized tools for multibeam backscatter processing*](#specialized-tools-for-multibeam-backscatter-processing)
     - [Quality Control / Quality Assurance](#quality-control--quality-assurance)
     - [Geospatial analysis and generation of derived products](#geospatial-analysis-and-generation-of-derived-products)
     - [Data management and dissemination](#data-management-and-dissemination)
@@ -127,8 +127,6 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [Ocean Data Science](https://github.com/hydroffice/ocean_data_science) provides an introductory course to Python and Ocean Data Science in the form of Jupyter Notebooks.
 - [OpenOceans](https://github.com/jonm3D/OpenOceans) helps you extract and analyze bathymetry from ICESat-2 lidar data.
 - [auvlib](https://github.com/nilsbore/auvlib) is a C++ and python library for reading AUV deployment data files and for processing and visualization of side scan and multibeam data.
-- 
--  
   
 #### R programming language
 
