@@ -14,7 +14,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Survey planning and preparations](#survey-planning-and-preparations)
     - [Data acquisition](#data-acquisition)
     - [Hydrographic data processing](#hydrographic-data-processing)
-      - [**Specialized tools for multibeam backscatter processing**](#specialized-tools-for-multibeam-backscatter-processing)
+      - [***Specialized tools for multibeam backscatter processing***](#specialized-tools-for-multibeam-backscatter-processing)
     - [Quality Control / Quality Assurance](#quality-control--quality-assurance)
     - [Geospatial analysis and generation of derived products](#geospatial-analysis-and-generation-of-derived-products)
     - [Data management and dissemination](#data-management-and-dissemination)
@@ -29,8 +29,8 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Reference documentation](#reference-documentation)
     - [Hydrographic datasets online](#hydrographic-datasets-online)
     - [Magazines and journals](#magazines-and-journals)
+    - [Youtube and Vimeo channels](#youtube-and-vimeo-channels)
     - [Miscellanea](#miscellanea)
-    - [Youtube and Videmo channels](#youtube-and-videmo-channels)
  
  
 
@@ -63,7 +63,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [CloudCompare](https://www.danielgm.net/cc/), is a 3D point cloud processing software. It can also handle triangular meshes and calibrated images. Although is commonly used in laser scanner and LIDAR data processing and photogrammetry, it is being utilized used for high definition 3D structure reconstruction from multibeam data.   
 
 
-#### **Specialized tools for multibeam backscatter processing**
+#### ***Specialized tools for multibeam backscatter processing***
   - [SonarScope](https://www.seanoe.org/data/00766/87777/) is a Matlab-based software providing a high-performance environment for the analysis of multibeam echosounders and side scan sonars. In addition SonarScope is a reference tool for the treatment of bottom reflectivity by Ifremer and other marine resarch organizations.
   - [Stormix ](https://www.hydroffice.org/stormfix/) is a set of tools within [Hydroffice](https://www.hydroffice.org/) to reduce artifacts in acoustic backscatter data. It also allows displaying raw multibeam data. Currently Kongsberg "all" and "wcd" formats are supported.
   - [Iskaffe](https://github.com/alexschimel/Iskaffe) is an app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. Iskaffe uses the CoFFee multibeam data processing toolbox. It is coded in MATLAB, but is also available as a standalone application that does not require a MATLAB licence. Currently Iskaffe support Kongsberg "all" and "kmall" formats.
@@ -183,22 +183,46 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [GeoHab](https://geohab.org/publications/), (Marine Geological and Biological Habitat Mapping) provides guidelines for multibeam backscatter and water column data processing.
 - [NOAA OCS publications](https://nauticalcharts.noaa.gov/publications/standards-and-requirements.html). The Hydrographic Surveys Specifications and Deliverables (HSSD) details the requirements for hydrographic surveys undertaken either by NOAA field units or by organizations under contract to the NOAA Office of Coast Survey. The  Field Procedures Manual (FPM) provides best practices and standard operating procedures for field units conducting, processing, and generating hydrographic survey deliverables.
 - [Australian Multibeam Guidelines](https://australian-multibeam-guidelines.github.io/) provide recommended procedures for survey planning, data acquisition and submission. They are designed for a range of audiences, from those experienced in seafloor mapping using multibeam sonar systems, non-experts who are developing mapping capabilities, and those contracting seafloor mapping surveys using swath systems.
-
 - [Canadian Hydrographic Survey Management Guidelines
 ](https://www.charts.gc.ca/data-gestion/guidelines-directrices/index-eng.html). The CHS Standards for Hydrographic Surveys is the document that specifies the requirements for hydrographic surveys in order that hydrographic data is collected according to specific standards. This document quantifies the accuracies required, depending on the use of the data.
+- [NOAA Center for Ocean Mapping and Innovative Technologies](https://www.marine.usf.edu/comit/resources/) (COMIT) provides links to a handful of helpful documents and websites that help to guide COMIT activities and priorities.
+- [IOGP standards](https://www.iogp.org/geomatics/#ssdm). Publications and requirements of the International Association of Oil&Gas Producers.
 - [Kongsberg KMALL datagram description](https://www.kongsberg.com/maritime/support/document-and-downloads/software-downloads/). Latest version made public.
 - [SONAR-netCDF4 ](https://github.com/ices-publications/SONAR-netCDF4) convention for sonar data.
+- [FAU format description](https://eng.gst.dk/danish-hydrographic-office/hydrographic-surveying/the-fau-format). The FAU (FArvandsvæsenets UTM) is a hydrographic binary file format developed and maintained by Danish Geodata Agency with contributions from several hydrographic stakeholders.
 
 ### Hydrographic datasets online
-
+- [IHO Data Centrer for Digital Bathymetry](https://iho.int/en/data-centre-for-digital-bathymetry) contains oceanic soundings acquired by hydrographic, oceanographic and other vessels during surveys or while on passage. Data are publically available and used for the production of improved and more comprehensive bathymetric maps and grids, particularly in support of the GEBCO Ocean Mapping Programme.
+-  [GEBCO bathymetry ](https://www.gebco.net/data_and_products/gridded_bathymetry_data/), the General Bathymetric Chart of the Oceans 2022 Grid is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid. It is accompanied by a Type Identifier (TID) Grid that gives information on the types of source data that the GEBCO_2022 Grid is based on.
+-  [EMODnet-Bathymetry](https://www.emodnet-bathymetry.eu/). This service provides bathymetric data products for the European sea regions in an area specified by the EMODnet project. The data product is provided in one sixteenth arc minute grid, so data points are roughly 115 meters apart.
+-  [ Global Multi-Resolution Topography (GMRT) ](https://www.gmrt.org/about/index.php) is a multi-resolution Digital Elevation Model (DEM)  Most curatorial effort for GMRT is focused on cleaning and processing ship-based multibeam sonar data acquired by the US Academic Research Fleet (ARF) so they can be gridded at their full spatial resolution (~100m in the deep sea).
+-  [International Bathymetic Chart of the Southern Ocean](https://ibcso.org/) (IBCSO) is the authoritative map of the Southern Ocean with the largest database of depth measurements. With billions of soundings contributed by organisations across the globe. IBCSO is a regional mapping initiative of GEBCO. 
+-  [Canadian Hydrographic Service Non-Navigational (NONNA) Bathymetric Data](https://open.canada.ca/data/en/dataset/d3881c4c-650d-4070-bf9b-1e00aabf0a1d) offers a complete inventory of bathymetric data free to the general public for non-navigational use. The product is available in a spatial resolution of 10 metres or 100 metres.
+-  [NCEI Seafloor Mapping Tools](https://www.ncei.noaa.gov/products/seafloor-mapping). NOAA National Centers for Environmental Information (NCEI) provides depth data acquired by hydrographic, oceanographic, and industry vessels and platforms during surveys or while on passage. These data, which are used in several national and international mapping bathymetry projects, are free to the public with no restrictions.
+-  [NOAA Water-Column Sonar Data Archive](https://registry.opendata.aws/ncei-wcsd-archive/) hosts water-column sonar data archived at the NOAA National Centers for Environmental Information.
 
 ### Magazines and journals
 - [The International Hydrographic Review](https://journals.lib.unb.ca/index.php/ihr/index) is an international journal by IHO publishing original works on all aspects of hydrography and associated subjects, ranging from the latest technical developments to history
 - [Hydro International Magazine](https://www.hydro-international.com/magazine) is a magazine focusing on hydrography, seeking and publishing the opinion of leading hydrographers on the state of the market, technical issues and national and international policies.
 - [Hydrographische Nachrichten
 ](https://dhyg.de/index.php/hydrographische-nachrichten) is the German for "Journal of Applied Hydrography". Many articles are published in English. 
+- [The Journal of Ocean Technology](https://www.thejot.net/) is a scientific periodical published by the Fisheries and Marine Institute of Memorial University of Newfoundland. Its mission is to expand global knowledge and understanding of ocean technologies, to serve as the medium for publishing world-leading research, and to promote innovation that contributes to responsible ocean utilization and management.
+- [CCOM-JHC repository](http://ccom.unh.edu/publications). Publications by researchers at the Center for Coastal and Ocean Mapping - Joint Hydrographic Center.
+[The Ocean Mapping Group](http://www.omg.unb.ca/publications/) (OMG) of the University of New Brunswick (Canada) publications and presentations list.
+- [Marine Geodesy ](https://www.tandfonline.com/journals/umgd20) is an online publication aimed at research on marine and coastal environments; surveys, mapping and boundaries; bathymetry; remote sensing; navigation; plate tectonics; instrumentation and GIS.
+- [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic
 
-
+### Youtube and Vimeo channels
+- [Center for Coastal and Ocean Mapping/Joint Hydrographic Center](https://vimeo.com/ccomjhc) presentations and seminars videos on Vimeo
+- [The Hydrographic Society UK & Ireland](https://www.youtube.com/channel/UCSxKTu0_ixHn-aJlaaBuH2w/videos) presentations on Youtube
+- [Norwegian forum for Offshore Survey and Positioning](https://www.youtube.com/channel/UCMKzYmb6iVTedOOZTB1ITjA/videos), NOSP, uploads frequents presentations on seabed mapping news. 
+- [COMIT | Center for Ocean Mapping & Innovative Tech](https://www.youtube.com/channel/UC3A9iD-TPwY9cEjHfaVYu3Q/videos) webinars on Youtube.
+- [Teledyne Geospatial - CARIS software](https://www.youtube.com/user/CARISGIS/videos). Youtube videos supporting the CARIS hydrographic suite. 
+- [Teledyne Marine ](https://www.youtube.com/channel/UCxhNgDUC8aCTCtHQue06KMQ/videos) videos of their products.
+- [Kongsberg Maritime](https://www.youtube.com/user/kongsbergmaritime/videos) Youtube channel.
+- [Hypack](https://www.youtube.com/c/HYPACKSupport) Youtube channel with support videos.
+- [Seabed 2030 South and West Pacific Regional Data Centre](https://www.youtube.com/channel/UCCA1Cv9eWToOQN-qthqw4lQ/videos) YT channel.
+- [Hydrographic Surveyor ](https://www.youtube.com/c/HydrographicSurveyor/videos) Youtube channel contains numerous videos on hydrographic theory and practice in Indonesian language. 
 
 ### Miscellanea
 -  [OpenCTD](https://github.com/OceanographyforEveryone/OpenCTD) is a low-cost, open-source CTD for researchers and citizen scientists.
@@ -206,7 +230,7 @@ python module to read and write a Kongsberg .ALL file making modifications along
 
 
 
-### Youtube and Videmo channels
+
 
 
 
