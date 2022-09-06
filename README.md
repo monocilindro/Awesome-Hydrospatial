@@ -9,7 +9,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
 <img src="./images/Hydrospatial.jpg" alt="Getting started" />
 
 
-- [**Awesome Hydrospatial**](#awesome-hydrospatial)
+  
   - [**Free and Open Software for Ocean Mapping (FOSSOM)**](#free-and-open-software-for-ocean-mapping-fossom)
     - [Survey planning and preparations](#survey-planning-and-preparations)
     - [Data acquisition](#data-acquisition)
@@ -64,7 +64,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [CloudCompare](https://www.danielgm.net/cc/), is a 3D point cloud processing software. It can also handle triangular meshes and calibrated images. Although is commonly used in laser scanner and LIDAR data processing and photogrammetry, it is being utilized used for high definition 3D structure reconstruction from multibeam data.   
 
 
-#### ***Specialized tools for multibeam backscatter processing***
+#### *Specialized tools for multibeam backscatter processing*
   - [SonarScope](https://www.seanoe.org/data/00766/87777/) is a Matlab-based software providing a high-performance environment for the analysis of multibeam echosounders and side scan sonars. In addition SonarScope is a reference tool for the treatment of bottom reflectivity by Ifremer and other marine resarch organizations.
   - [Stormix ](https://www.hydroffice.org/stormfix/) is a set of tools within [Hydroffice](https://www.hydroffice.org/) to reduce artifacts in acoustic backscatter data. It also allows displaying raw multibeam data. Currently Kongsberg "all" and "wcd" formats are supported.
   - [Iskaffe](https://github.com/alexschimel/Iskaffe) is an app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. Iskaffe uses the CoFFee multibeam data processing toolbox. It is coded in MATLAB, but is also available as a standalone application that does not require a MATLAB licence. Currently Iskaffe support Kongsberg "all" and "kmall" formats.
@@ -122,6 +122,7 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [cudem ](https://github.com/ciresdem/cudem) contains scripts and programs for use in generating and processing Digital Elevation Models.
 
 - [Sounding Selection](https://github.com/NoelDyer/Sounding-Selection) is an script to improve label-based generalization of bathymetry data for hydrographic sounding selection.
+- [Control de Calidad](https://github.com/monocilindro/Awesome-Hydrospatial/blob/main/resources/Control_Calidad.ipynb) is a Jupyter Notebook with code to help sounding validation implementing the triangulation algorithmn by Masetti et al, 2018.
 - [Interactive-MBES-processing](https://github.com/SophieHCU/Interactive-MBES-processing) is a tool based on Python and Jupyter Notebook for interactive processing of Kongsberg MBES bathymetry and backscatter data.
 - [Ocean Data Science](https://github.com/hydroffice/ocean_data_science) provides an introductory course to Python and Ocean Data Science in the form of Jupyter Notebooks.
 - [OpenOceans](https://github.com/jonm3D/OpenOceans) helps you extract and analyze bathymetry from ICESat-2 lidar data.
