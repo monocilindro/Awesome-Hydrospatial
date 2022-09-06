@@ -105,28 +105,32 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 ### Coding scritps
 
 #### Python 
-- [Bathycube](https://github.com/noaa-ocs-hydrography/bathycube) is a Python implementation of the CUBE module, Combined Uncertainty and Bathymetry Estimator. It only contains the cube grid/node objects, the original library included other data structures that were not translated here.
-- [gsfpy](https://github.com/UKHO/gsfpy) is the Python wrapper for the C implementation of the Generic Sensor Format library, developed at UKHO. Only for Linux.
-- [valschmidt/kmall](https://github.com/valschmidt/kmall) is a  python reader for the Kongsberg KMALL file format.
 - [ausseabed/kmall](https://github.com/ausseabed/kmall) is a fork of [valschmidt/kmall](https://github.com/valschmidt/kmall) by the Australian national seabed mapping coordination program (Ausseabed).
-- [merge svp ](https://github.com/ausseabed/merge-svp) is a command line utility for merging Sound Velocity Profiles into single file format supported by Teledyne CARIS.
-- [pyxtf](https://github.com/oysstu/pyxtf) is a python library for reading and writing eXtended Triton Format (XTF) files.
-- [NOAA OCS driver](https://github.com/noaa-ocs-hydrography/drivers/tree/main/HSTB/drivers) is a collection of Python file readers and supporting modules for hydrographic data access.
+- [auvlib](https://github.com/nilsbore/auvlib) is a C++ and python library for reading AUV deployment data files and for processing and visualization of side scan and multibeam data.
+- [Bathycube](https://github.com/noaa-ocs-hydrography/bathycube) is a Python implementation of the CUBE module, Combined Uncertainty and Bathymetry Estimator. It only contains the cube grid/node objects, the original library included other data structures that were not translated here.
 - [CCOM-JHC common data readers ](https://github.com/CCOMJHC/common_data_readers) is a repository for common multibeam data parsers and readers (all/kmall/s7k).
-- [survey2ssdm ](https://github.com/pktrigg/survey2ssdm) imports a hydrographic survey to an opensource geopackage using the SSDM 2.0 schema
-- [pyAllConditioner](https://github.com/pktrigg/pyAllConditioner) is a
-python module to read and write a Kongsberg .ALL file making modifications along the way.
-- [echopype ](https://github.com/OSOceanAcoustics/echopype) is a package built to enable interoperability and scalability in ocean sonar data processing. Currently supporting SIMRAD EK60 file format.
-- [verde ](https://github.com/fatiando/verde)  is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids.
-- [pyCascadia](https://github.com/UCL/pyCascadia) is implementation of GEBCO cookbook remove-restore and other cleaning of topography/bathymetry by using pyGMT.
-- [cudem ](https://github.com/ciresdem/cudem) contains scripts and programs for use in generating and processing Digital Elevation Models.
-
-- [Sounding Selection](https://github.com/NoelDyer/Sounding-Selection) is an script to improve label-based generalization of bathymetry data for hydrographic sounding selection.
 - [Control de Calidad](https://github.com/monocilindro/Awesome-Hydrospatial/blob/main/resources/Control_Calidad.ipynb) is a Jupyter Notebook with code to help sounding validation implementing the triangulation algorithmn by Masetti et al, 2018.
+- [cudem ](https://github.com/ciresdem/cudem) contains scripts and programs for use in generating and processing Digital Elevation Models.
+- [echopype ](https://github.com/OSOceanAcoustics/echopype) is a package built to enable interoperability and scalability in ocean sonar data processing. Currently supporting SIMRAD EK60 file format.
+- [geospatial](https://geospatial.gishub.org/) is a Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
+- [gsfpy](https://github.com/UKHO/gsfpy) is the Python wrapper for the C implementation of the Generic Sensor Format library, developed at UKHO. Only for Linux.
 - [Interactive-MBES-processing](https://github.com/SophieHCU/Interactive-MBES-processing) is a tool based on Python and Jupyter Notebook for interactive processing of Kongsberg MBES bathymetry and backscatter data.
+- [merge svp ](https://github.com/ausseabed/merge-svp) is a command line utility for merging Sound Velocity Profiles into single file format supported by Teledyne CARIS.
+- [NOAA OCS driver](https://github.com/noaa-ocs-hydrography/drivers/tree/main/HSTB/drivers) is a collection of Python file readers and supporting modules for hydrographic data access.
 - [Ocean Data Science](https://github.com/hydroffice/ocean_data_science) provides an introductory course to Python and Ocean Data Science in the form of Jupyter Notebooks.
 - [OpenOceans](https://github.com/jonm3D/OpenOceans) helps you extract and analyze bathymetry from ICESat-2 lidar data.
-- [auvlib](https://github.com/nilsbore/auvlib) is a C++ and python library for reading AUV deployment data files and for processing and visualization of side scan and multibeam data.
+- [pyAllConditioner](https://github.com/pktrigg/pyAllConditioner) is a python module to read and write a Kongsberg .ALL file making modifications along the way.
+
+- [pyCascadia](https://github.com/UCL/pyCascadia) is implementation of GEBCO cookbook remove-restore and other cleaning of topography/bathymetry by using pyGMT.
+- [PyGMT ](https://www.pygmt.org/latest/) is a library for processing geospatial and geophysical data and making publication quality maps and figures. It provides a Pythonic interface for the Generic Mapping Tools (GMT), a command-line program widely used in the Earth Sciences.
+- [pyxtf](https://github.com/oysstu/pyxtf) is a python library for reading and writing eXtended Triton Format (XTF) files.
+- [Sounding Selection](https://github.com/NoelDyer/Sounding-Selection) is an script to improve label-based generalization of bathymetry data for hydrographic sounding selection.
+- [survey2ssdm ](https://github.com/pktrigg/survey2ssdm) imports a hydrographic survey to an opensource geopackage using the SSDM 2.0 schema
+- [valschmidt/kmall](https://github.com/valschmidt/kmall) is a  python reader for the Kongsberg KMALL file format.
+- [verde](https://github.com/fatiando/verde)  is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids.
+
+
+- 
   
 #### R programming language
 
@@ -183,25 +187,28 @@ python module to read and write a Kongsberg .ALL file making modifications along
 ###  Reference documentation
 - [International Hydrographic Organization](https://iho.int/iho_pubs/IHO_Download.htm) (IHO) publications.
 - [GeoHab](https://geohab.org/publications/), (Marine Geological and Biological Habitat Mapping) provides guidelines for multibeam backscatter and water column data processing.
+- [IHO-IOC GEBCO Cook Book](https://www.gebco.net/data_and_products/gebco_cook_book/) is a technical reference manual on how to build bathymetric grids.
 - [NOAA OCS publications](https://nauticalcharts.noaa.gov/publications/standards-and-requirements.html). The Hydrographic Surveys Specifications and Deliverables (HSSD) details the requirements for hydrographic surveys undertaken either by NOAA field units or by organizations under contract to the NOAA Office of Coast Survey. The  Field Procedures Manual (FPM) provides best practices and standard operating procedures for field units conducting, processing, and generating hydrographic survey deliverables.
 - [Australian Multibeam Guidelines](https://australian-multibeam-guidelines.github.io/) provide recommended procedures for survey planning, data acquisition and submission. They are designed for a range of audiences, from those experienced in seafloor mapping using multibeam sonar systems, non-experts who are developing mapping capabilities, and those contracting seafloor mapping surveys using swath systems.
 - [Canadian Hydrographic Survey Management Guidelines
 ](https://www.charts.gc.ca/data-gestion/guidelines-directrices/index-eng.html). The CHS Standards for Hydrographic Surveys is the document that specifies the requirements for hydrographic surveys in order that hydrographic data is collected according to specific standards. This document quantifies the accuracies required, depending on the use of the data.
 - [NOAA Center for Ocean Mapping and Innovative Technologies](https://www.marine.usf.edu/comit/resources/) (COMIT) provides links to a handful of helpful documents and websites that help to guide COMIT activities and priorities.
 - [IOGP standards](https://www.iogp.org/geomatics/#ssdm). Publications and requirements of the International Association of Oil&Gas Producers.
+- [MAC tech resources ](https://mac.unols.org/resources/) contains cookbooks, references and tools aiming at improving the operational use of multibeam cross the U.S. Academic Research Fleet.
 - [Kongsberg KMALL datagram description](https://www.kongsberg.com/maritime/support/document-and-downloads/software-downloads/). Latest version made public.
 - [SONAR-netCDF4 ](https://github.com/ices-publications/SONAR-netCDF4) convention for sonar data.
 - [FAU format description](https://eng.gst.dk/danish-hydrographic-office/hydrographic-surveying/the-fau-format). The FAU (FArvandsvæsenets UTM) is a hydrographic binary file format developed and maintained by Danish Geodata Agency with contributions from several hydrographic stakeholders.
 
 ###  Hydrographic datasets online
-- [IHO Data Centrer for Digital Bathymetry](https://iho.int/en/data-centre-for-digital-bathymetry) contains oceanic soundings acquired by hydrographic, oceanographic and other vessels during surveys or while on passage. Data are publically available and used for the production of improved and more comprehensive bathymetric maps and grids, particularly in support of the GEBCO Ocean Mapping Programme.
--  [GEBCO bathymetry ](https://www.gebco.net/data_and_products/gridded_bathymetry_data/), the General Bathymetric Chart of the Oceans 2022 Grid is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid. It is accompanied by a Type Identifier (TID) Grid that gives information on the types of source data that the GEBCO_2022 Grid is based on.
--  [EMODnet-Bathymetry](https://www.emodnet-bathymetry.eu/). This service provides bathymetric data products for the European sea regions in an area specified by the EMODnet project. The data product is provided in one sixteenth arc minute grid, so data points are roughly 115 meters apart.
--  [ Global Multi-Resolution Topography (GMRT) ](https://www.gmrt.org/about/index.php) is a multi-resolution Digital Elevation Model (DEM)  Most curatorial effort for GMRT is focused on cleaning and processing ship-based multibeam sonar data acquired by the US Academic Research Fleet (ARF) so they can be gridded at their full spatial resolution (~100m in the deep sea).
--  [International Bathymetic Chart of the Southern Ocean](https://ibcso.org/) (IBCSO) is the authoritative map of the Southern Ocean with the largest database of depth measurements. With billions of soundings contributed by organisations across the globe. IBCSO is a regional mapping initiative of GEBCO. 
 -  [Canadian Hydrographic Service Non-Navigational (NONNA) Bathymetric Data](https://open.canada.ca/data/en/dataset/d3881c4c-650d-4070-bf9b-1e00aabf0a1d) offers a complete inventory of bathymetric data free to the general public for non-navigational use. The product is available in a spatial resolution of 10 metres or 100 metres.
+-  [EMODnet-Bathymetry](https://www.emodnet-bathymetry.eu/). This service provides bathymetric data products for the European sea regions in an area specified by the EMODnet project. The data product is provided in one sixteenth arc minute grid, so data points are roughly 115 meters apart.
+-  [GEBCO bathymetry ](https://www.gebco.net/data_and_products/gridded_bathymetry_data/), the General Bathymetric Chart of the Oceans 2022 Grid is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid. It is accompanied by a Type Identifier (TID) Grid that gives information on the types of source data that the GEBCO_2022 Grid is based on.
+-  [Global Multi-Resolution Topography (GMRT) ](https://www.gmrt.org/about/index.php) is a multi-resolution Digital Elevation Model (DEM)  Most curatorial effort for GMRT is focused on cleaning and processing ship-based multibeam sonar data acquired by the US Academic Research Fleet (ARF) so they can be gridded at their full spatial resolution (~100m in the deep sea).
+- [IHO Data Centre for Digital Bathymetry](https://iho.int/en/data-centre-for-digital-bathymetry) contains oceanic soundings acquired by hydrographic, oceanographic and other vessels during surveys or while on passage. Data are publically available and used for the production of improved and more comprehensive bathymetric maps and grids, particularly in support of the GEBCO Ocean Mapping Programme.
+-  [International Bathymetic Chart of the Southern Ocean](https://ibcso.org/) (IBCSO) is the authoritative map of the Southern Ocean with the largest database of depth measurements. With billions of soundings contributed by organisations across the globe. IBCSO is a regional mapping initiative of GEBCO. 
 -  [NCEI Seafloor Mapping Tools](https://www.ncei.noaa.gov/products/seafloor-mapping). NOAA National Centers for Environmental Information (NCEI) provides depth data acquired by hydrographic, oceanographic, and industry vessels and platforms during surveys or while on passage. These data, which are used in several national and international mapping bathymetry projects, are free to the public with no restrictions.
 -  [NOAA Water-Column Sonar Data Archive](https://registry.opendata.aws/ncei-wcsd-archive/) hosts water-column sonar data archived at the NOAA National Centers for Environmental Information.
+
 
 ### Magazines and journals
 - [The International Hydrographic Review](https://journals.lib.unb.ca/index.php/ihr/index) is an international journal by IHO publishing original works on all aspects of hydrography and associated subjects, ranging from the latest technical developments to history
