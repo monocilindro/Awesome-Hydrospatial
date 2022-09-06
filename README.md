@@ -26,6 +26,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Licenced but free tools](#licenced-but-free-tools)
     - [Other interesting sites listing free resources](#other-interesting-sites-listing-free-resources)
   - [Commercial hydrographic software](#commercial-hydrographic-software)
+  - [Other resources](#other-resources)
     - [Reference documentation](#reference-documentation)
     - [Hydrographic datasets online](#hydrographic-datasets-online)
     - [Magazines and journals](#magazines-and-journals)
@@ -125,6 +126,7 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [Ocean Data Science](https://github.com/hydroffice/ocean_data_science) provides an introductory course to Python and Ocean Data Science in the form of Jupyter Notebooks.
 - [OpenOceans](https://github.com/jonm3D/OpenOceans) helps you extract and analyze bathymetry from ICESat-2 lidar data.
 - [auvlib](https://github.com/nilsbore/auvlib) is a C++ and python library for reading AUV deployment data files and for processing and visualization of side scan and multibeam data.
+- 
 -  
   
 #### R programming language
@@ -177,8 +179,9 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [Hypack](https://www.hypack.com/) is a  provider of hydrographic and dredging software worldwide, supporting over 400 different sensors and devices.
 - [Echoview](https://echoview.com/) software provides advanced hydroacoustic data processing software for fisheries scientists and environmental managers.
 
+## Other resources
 
-### Reference documentation
+###  Reference documentation
 - [International Hydrographic Organization](https://iho.int/iho_pubs/IHO_Download.htm) (IHO) publications.
 - [GeoHab](https://geohab.org/publications/), (Marine Geological and Biological Habitat Mapping) provides guidelines for multibeam backscatter and water column data processing.
 - [NOAA OCS publications](https://nauticalcharts.noaa.gov/publications/standards-and-requirements.html). The Hydrographic Surveys Specifications and Deliverables (HSSD) details the requirements for hydrographic surveys undertaken either by NOAA field units or by organizations under contract to the NOAA Office of Coast Survey. The  Field Procedures Manual (FPM) provides best practices and standard operating procedures for field units conducting, processing, and generating hydrographic survey deliverables.
@@ -191,7 +194,7 @@ python module to read and write a Kongsberg .ALL file making modifications along
 - [SONAR-netCDF4 ](https://github.com/ices-publications/SONAR-netCDF4) convention for sonar data.
 - [FAU format description](https://eng.gst.dk/danish-hydrographic-office/hydrographic-surveying/the-fau-format). The FAU (FArvandsvæsenets UTM) is a hydrographic binary file format developed and maintained by Danish Geodata Agency with contributions from several hydrographic stakeholders.
 
-### Hydrographic datasets online
+###  Hydrographic datasets online
 - [IHO Data Centrer for Digital Bathymetry](https://iho.int/en/data-centre-for-digital-bathymetry) contains oceanic soundings acquired by hydrographic, oceanographic and other vessels during surveys or while on passage. Data are publically available and used for the production of improved and more comprehensive bathymetric maps and grids, particularly in support of the GEBCO Ocean Mapping Programme.
 -  [GEBCO bathymetry ](https://www.gebco.net/data_and_products/gridded_bathymetry_data/), the General Bathymetric Chart of the Oceans 2022 Grid is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid. It is accompanied by a Type Identifier (TID) Grid that gives information on the types of source data that the GEBCO_2022 Grid is based on.
 -  [EMODnet-Bathymetry](https://www.emodnet-bathymetry.eu/). This service provides bathymetric data products for the European sea regions in an area specified by the EMODnet project. The data product is provided in one sixteenth arc minute grid, so data points are roughly 115 meters apart.
