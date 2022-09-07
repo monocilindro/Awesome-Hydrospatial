@@ -220,7 +220,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 ](https://dhyg.de/index.php/hydrographische-nachrichten) is the German for "Journal of Applied Hydrography". Many articles are published in English. 
 - [The Journal of Ocean Technology](https://www.thejot.net/) is a scientific periodical published by the Fisheries and Marine Institute of Memorial University of Newfoundland. Its mission is to expand global knowledge and understanding of ocean technologies, to serve as the medium for publishing world-leading research, and to promote innovation that contributes to responsible ocean utilization and management.
 - [CCOM-JHC repository](http://ccom.unh.edu/publications). Publications by researchers at the Center for Coastal and Ocean Mapping - Joint Hydrographic Center.
-[The Ocean Mapping Group](http://www.omg.unb.ca/publications/) (OMG) of the University of New Brunswick (Canada) publications and presentations list.
+- [The Ocean Mapping Group](http://www.omg.unb.ca/publications/) (OMG) of the University of New Brunswick (Canada) publications and presentations list.
 - [Marine Geodesy ](https://www.tandfonline.com/journals/umgd20) is an online publication aimed at research on marine and coastal environments; surveys, mapping and boundaries; bathymetry; remote sensing; navigation; plate tectonics; instrumentation and GIS.
 - [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic.
 - [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
