@@ -156,7 +156,8 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 
 
 ### Licenced but free tools
-- [Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
+- [Geomapapp](http://www.geomapapp.org/) is a map-based application for browsing, visualizing and analyzing a diverse suite of curated global and regional geoscience data sets. These cover geophysics, geology, geochemistry, physical oceanography, climatology, and more.
+- [Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android app to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
 - [Mirone ](http://joa-quim.pt/mirone/) is a MATLAB-based framework tool that allows the display and manipulation of a large number of grid/images formats through its interface with the GDAL library. Its main purpose is to provide users with an easy-to-use graphical interface to manipulate GMT grids. Joaquim also provides [MBsystem for Windows](http://joa-quim.pt/mirone/downloads/gmt.html), a lighter version of MBsystem with no GUI apps.
 
 - [CMST-GA MB Process](https://cmst.curtin.edu.au/products/multibeam-software/) is a proprietary backscatter data processing tool coded in Matlab and developed and used by Curtin University Centre for Marine Science and Technology (CMST) and Geoscience Australia (GA) researchers to process Kongsberg and Reson MBES data.
@@ -212,7 +213,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 -  [NOAA Water-Column Sonar Data Archive](https://registry.opendata.aws/ncei-wcsd-archive/) hosts water-column sonar data archived at the NOAA National Centers for Environmental Information.
 
 
-### Magazines and journals
+### Magazines, journals and blogs.
 - [The International Hydrographic Review](https://journals.lib.unb.ca/index.php/ihr/index) is an international journal by IHO publishing original works on all aspects of hydrography and associated subjects, ranging from the latest technical developments to history
 - [Hydro International Magazine](https://www.hydro-international.com/magazine) is a magazine focusing on hydrography, seeking and publishing the opinion of leading hydrographers on the state of the market, technical issues and national and international policies.
 - [Hydrographische Nachrichten
@@ -224,6 +225,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic.
 - [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
 - [Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is an Storymap focused on the Hydrospatial movement.
+- [UT-2](https://ut-2.com/), Underwater Technology-2, is an online magazine about subsea equipment and unterwater robotics.
 
 ### Youtube and Vimeo channels
 - [Center for Coastal and Ocean Mapping/Joint Hydrographic Center](https://vimeo.com/ccomjhc) presentations and seminars videos on Vimeo
