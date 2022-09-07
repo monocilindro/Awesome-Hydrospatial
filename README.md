@@ -102,7 +102,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [Qgis2threejs](https://plugins.qgis.org/plugins/Qgis2threejs/) is a QGIS plugin to visualize DEM, vector data and point cloud data in 3D on web browsers. You can build various kinds of 3D objects and generate files for web publishing in simple procedure. In addition, you can save the 3D model in glTF format for 3DCG or 3D printing.
 - [Aerialod](https://ephtracy.github.io/index.html?page%3Daerialod#%3A~%3Atext%3D0.1%29%2Cand%2016-bit%20png%20images.) is a is a simple and interactive path tracer that allows 3D rendering from raster DEM.
 
-### Coding scritps
+### Coding scripts
 
 #### Python 
 - [ausseabed/kmall](https://github.com/ausseabed/kmall) is a fork of [valschmidt/kmall](https://github.com/valschmidt/kmall) by the Australian national seabed mapping coordination program (Ausseabed).
@@ -114,6 +114,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [echopype ](https://github.com/OSOceanAcoustics/echopype) is a package built to enable interoperability and scalability in ocean sonar data processing. Currently supporting SIMRAD EK60 file format.
 - [geospatial](https://geospatial.gishub.org/) is a Python package for installing commonly used packages for geospatial analysis and data visualization with only one command.
 - [gsfpy](https://github.com/UKHO/gsfpy) is the Python wrapper for the C implementation of the Generic Sensor Format library, developed at UKHO. Only for Linux.
+- [IHO ENC tools](https://github.com/iho-ohi). International Hydrographic Organization repository hosting Python tools to help implementing the new S10X standards.
 - [Interactive-MBES-processing](https://github.com/SophieHCU/Interactive-MBES-processing) is a tool based on Python and Jupyter Notebook for interactive processing of Kongsberg MBES bathymetry and backscatter data.
 - [merge svp ](https://github.com/ausseabed/merge-svp) is a command line utility for merging Sound Velocity Profiles into single file format supported by Teledyne CARIS.
 - [NOAA OCS driver](https://github.com/noaa-ocs-hydrography/drivers/tree/main/HSTB/drivers) is a collection of Python file readers and supporting modules for hydrographic data access.
@@ -130,7 +131,6 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [verde](https://github.com/fatiando/verde)  is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids.
 
 
-- 
   
 #### R programming language
 
@@ -157,7 +157,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [Ocean Tools: Marine Science](https://t.co/dMAZNAEK21) is an Android to develop useful tools for use in the planning and development of oceanographic surveys. It is not about providing tools that perform large calculations or processing, but rather Ocean Tools is focused on algorithms to perform small calculations on a day-to-day basis during the planning and execution of oceanographic campaigns.
 - [Mirone ](http://joa-quim.pt/mirone/) is a MATLAB-based framework tool that allows the display and manipulation of a large number of grid/images formats through its interface with the GDAL library. Its main purpose is to provide users with an easy-to-use graphical interface to manipulate GMT grids. Joaquim also provides [MBsystem for Windows](http://joa-quim.pt/mirone/downloads/gmt.html), a lighter version of MBsystem with no GUI apps.
 
-- [CMST-GA MB Process](https://cmst.curtin.edu.au/products/multibeam-software/)i s a proprietary backscatter data processing tool coded in Matlab and developed and used by Curtin University Centre for Marine Science and Technology (CMST) and Geoscience Australia (GA) researchers to process Kongsberg and Reson MBES data
+- [CMST-GA MB Process](https://cmst.curtin.edu.au/products/multibeam-software/) is a proprietary backscatter data processing tool coded in Matlab and developed and used by Curtin University Centre for Marine Science and Technology (CMST) and Geoscience Australia (GA) researchers to process Kongsberg and Reson MBES data.
 - [Hydrobib](https://hydrocharting.com/hydrobib/) is a freeware collection of survey utilities, meant to be used as a “knowledge database” for placing various information and “hydrographic tools” for classroom sonar/hydrography training etc.
 - [DORIS](https://www.doris-svp.org/) displays and processes physical data (salinity, temperature, velocity) issued from sensors and/or databases. The generated sound velocity profiles can be exported either to a sonar system for real-time application or to a post-processing software suite.
 - [Ocean Data View ](https://odv.awi.de/) (ODV) is a software package for the interactive exploration, analysis and visualization of oceanographic and other geo-referenced profile, time-series, trajectory or sequence data.
