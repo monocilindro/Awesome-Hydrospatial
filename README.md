@@ -221,7 +221,9 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [CCOM-JHC repository](http://ccom.unh.edu/publications). Publications by researchers at the Center for Coastal and Ocean Mapping - Joint Hydrographic Center.
 [The Ocean Mapping Group](http://www.omg.unb.ca/publications/) (OMG) of the University of New Brunswick (Canada) publications and presentations list.
 - [Marine Geodesy ](https://www.tandfonline.com/journals/umgd20) is an online publication aimed at research on marine and coastal environments; surveys, mapping and boundaries; bathymetry; remote sensing; navigation; plate tectonics; instrumentation and GIS.
-- [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic
+- [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic.
+- [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
+- [Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is an Storymap focused on the Hydrospatial movement.
 
 ### Youtube and Vimeo channels
 - [Center for Coastal and Ocean Mapping/Joint Hydrographic Center](https://vimeo.com/ccomjhc) presentations and seminars videos on Vimeo
@@ -234,10 +236,10 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [Hypack](https://www.youtube.com/c/HYPACKSupport) Youtube channel with support videos.
 - [Seabed 2030 South and West Pacific Regional Data Centre](https://www.youtube.com/channel/UCCA1Cv9eWToOQN-qthqw4lQ/videos) YT channel.
 - [Hydrographic Surveyor ](https://www.youtube.com/c/HydrographicSurveyor/videos) Youtube channel contains numerous videos on hydrographic theory and practice in Indonesian language. 
+- [5 Minutes Modules](https://www.youtube.com/channel/UC3wBsNfio9eS1l7v19I8hvA/about) is a Youtube channel covering all kind of difficult concepts in Hydrography in a way that is easy to understand.
 
 ### Miscellanea
 -  [OpenCTD](https://github.com/OceanographyforEveryone/OpenCTD) is a low-cost, open-source CTD for researchers and citizen scientists.
-- [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
 
 
 
