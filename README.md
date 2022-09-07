@@ -2,9 +2,11 @@
 
 # **Awesome Hydrospatial**
 
-An awesome and curated list of applications, tools, and documentation aimed to "map" the publicly available resources for the Ocean Mapping community.
+An awesome and curated list of applications, tools, and documentation aimed to "map" the publicly available resources for «all the blue of our blue planet, its continuous zones; the Hydrospatial Domain» & Ocean Mapping community.
 
 Contributions are welcome. Add links through pull requests or create an issue to start a discussion.
+
+
 
 <img src="./images/Hydrospatial.jpg" alt="Getting started" />
 
