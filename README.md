@@ -10,8 +10,10 @@ Contributions are welcome. Add links through pull requests or create an issue to
 
 <img src="./images/Hydrospatial.jpg" alt="Getting started" />
 
+Why Hydrospatial? - [Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is an Storymap focused on the Hydrospatial movement.
 
-  
+  TABLE OF CONTENTS
+  - **[Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium)**
   - [**Free and Open Software for Ocean Mapping (FOSSOM)**](#free-and-open-software-for-ocean-mapping-fossom)
     - [Survey planning and preparations](#survey-planning-and-preparations)
     - [Data acquisition](#data-acquisition)
@@ -35,7 +37,13 @@ Contributions are welcome. Add links through pull requests or create an issue to
     - [Youtube and Vimeo channels](#youtube-and-vimeo-channels)
     - [Miscellanea](#miscellanea)
  
- 
+## **Hydrospatial, the extension of hydrography**
+ [Hydrospatial](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is a generic concept defining the vast global domain that includes all the blue of our blue planet and its contiguous zones for a sustainable blue economy. 
+
+Hydrography is one of many elements at the foundation of the term hydrospatial. These include all the Spatio-temporal physical, biological and chemical data, information and knowledge related to their position on or in the water: surface, column, depth, bottom and sub-bottom of the oceans, estuaries,  rivers, lakes, the coastal zones, and the flooding areas. Safety and efficiency of navigation are part of hydrospatial amongst many other scientific, technical, social, environmental and economic activities. 
+
+Visit [the Hydrospatial Movement Club & Community (HMCC) portal](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) for  news and updates in the form of a Storymap.
+
 
 ## **Free and Open Software for Ocean Mapping (FOSSOM)** 
 FOSSOM is developed by institutions, researchers and enthusiasts, providing tools that may be used to optimize survey design, troubleshoot and resolve multibeam system performance issues, derive products, and enhance data visualization and dissemination. 
@@ -224,7 +232,6 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [Marine Geodesy ](https://www.tandfonline.com/journals/umgd20) is an online publication aimed at research on marine and coastal environments; surveys, mapping and boundaries; bathymetry; remote sensing; navigation; plate tectonics; instrumentation and GIS.
 - [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic.
 - [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
-- [Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is an Storymap focused on the Hydrospatial movement.
 - [UT-2](https://ut-2.com/), Underwater Technology-2, is an online magazine about subsea equipment and unterwater robotics.
 
 ### Youtube and Vimeo channels
