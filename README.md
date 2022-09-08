@@ -198,6 +198,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [NOAA Center for Ocean Mapping and Innovative Technologies](https://www.marine.usf.edu/comit/resources/) (COMIT) provides links to a handful of helpful documents and websites that help to guide COMIT activities and priorities.
 - [IOGP standards](https://www.iogp.org/geomatics/#ssdm). Publications and requirements of the International Association of Oil&Gas Producers.
 - [MAC tech resources ](https://mac.unols.org/resources/) contains cookbooks, references and tools aiming at improving the operational use of multibeam cross the U.S. Academic Research Fleet.
+- [Florida Marina Data Hub](https://www.floridamarinedata.com/) hosts reference hydrographic documentation and provides quarterly newsletters.
 - [Kongsberg KMALL datagram description](https://www.kongsberg.com/maritime/support/document-and-downloads/software-downloads/). Latest version made public.
 - [SONAR-netCDF4 ](https://github.com/ices-publications/SONAR-netCDF4) convention for sonar data.
 - [FAU format description](https://eng.gst.dk/danish-hydrographic-office/hydrographic-surveying/the-fau-format). The FAU (FArvandsvæsenets UTM) is a hydrographic binary file format developed and maintained by Danish Geodata Agency with contributions from several hydrographic stakeholders.
@@ -211,6 +212,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 -  [International Bathymetic Chart of the Southern Ocean](https://ibcso.org/) (IBCSO) is the authoritative map of the Southern Ocean with the largest database of depth measurements. With billions of soundings contributed by organisations across the globe. IBCSO is a regional mapping initiative of GEBCO. 
 -  [NCEI Seafloor Mapping Tools](https://www.ncei.noaa.gov/products/seafloor-mapping). NOAA National Centers for Environmental Information (NCEI) provides depth data acquired by hydrographic, oceanographic, and industry vessels and platforms during surveys or while on passage. These data, which are used in several national and international mapping bathymetry projects, are free to the public with no restrictions.
 -  [NOAA Water-Column Sonar Data Archive](https://registry.opendata.aws/ncei-wcsd-archive/) hosts water-column sonar data archived at the NOAA National Centers for Environmental Information.
+-  [TPXO Web Service](https://tpxows.azurewebsites.net/)  provides tide forecast/backcast at any location/time using latest version of the global barotropic model TPXO9-atlas  
 
 
 ### Magazines, journals and blogs.
@@ -222,14 +224,16 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [CCOM-JHC repository](http://ccom.unh.edu/publications). Publications by researchers at the Center for Coastal and Ocean Mapping - Joint Hydrographic Center.
 - [The Ocean Mapping Group](http://www.omg.unb.ca/publications/) (OMG) of the University of New Brunswick (Canada) publications and presentations list.
 - [Marine Geodesy ](https://www.tandfonline.com/journals/umgd20) is an online publication aimed at research on marine and coastal environments; surveys, mapping and boundaries; bathymetry; remote sensing; navigation; plate tectonics; instrumentation and GIS.
+- [GO-SHIP](https://www.go-ship.org) is the International Global Ship-based Hydrographic Investigations Program
 - [ON&T Magazine](https://www.oceannews.com/magazine) Ocean News & Technology is a publication of TSC Strategic.
 - [Multibeam.net ](http://www.multibeam.net/) News about high resolution seabed mapping
 - [Hydrospatial, the extension of Hydrography](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) is an Storymap focused on the Hydrospatial movement.
-- [UT-2](https://ut-2.com/), Underwater Technology-2, is an online magazine about subsea equipment and unterwater robotics.
+- [UT-2](https://ut-2.com/), Underwater Technology-2, is an online magazine about subsea equipment and underwater robotics.
 
 ### Youtube and Vimeo channels
 - [Center for Coastal and Ocean Mapping/Joint Hydrographic Center](https://vimeo.com/ccomjhc) presentations and seminars videos on Vimeo
 - [The Hydrographic Society UK & Ireland](https://www.youtube.com/channel/UCSxKTu0_ixHn-aJlaaBuH2w/videos) presentations on Youtube
+- [The Hydrographic Society in Scotland](https://www.youtube.com/channel/UCVffHaIm-6RTZUP-JNKDaWw) videos and webinars on Youtube.
 - [Norwegian forum for Offshore Survey and Positioning](https://www.youtube.com/channel/UCMKzYmb6iVTedOOZTB1ITjA/videos), NOSP, uploads frequents presentations on seabed mapping news. 
 - [COMIT | Center for Ocean Mapping & Innovative Tech](https://www.youtube.com/channel/UC3A9iD-TPwY9cEjHfaVYu3Q/videos) webinars on Youtube.
 - [Teledyne Geospatial - CARIS software](https://www.youtube.com/user/CARISGIS/videos). Youtube videos supporting the CARIS hydrographic suite. 
