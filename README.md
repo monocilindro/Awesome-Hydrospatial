@@ -77,6 +77,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
   - [SonarScope](https://www.seanoe.org/data/00766/87777/) is a Matlab-based software providing a high-performance environment for the analysis of multibeam echosounders and side scan sonars. In addition SonarScope is a reference tool for the treatment of bottom reflectivity by Ifremer and other marine resarch organizations.
   - [Stormix ](https://www.hydroffice.org/stormfix/) is a set of tools within [Hydroffice](https://www.hydroffice.org/) to reduce artifacts in acoustic backscatter data. It also allows displaying raw multibeam data. Currently Kongsberg "all" and "wcd" formats are supported.
   - [Iskaffe](https://github.com/alexschimel/Iskaffe) is an app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. Iskaffe uses the CoFFee multibeam data processing toolbox. It is coded in MATLAB, but is also available as a standalone application that does not require a MATLAB licence. Currently Iskaffe support Kongsberg "all" and "kmall" formats.
+  - [Neanias Seabed Classification from Multispectral, Multibeam Data  (UW-MM)](https://www.neanias.eu/index.php) service delivers a user-friendly cloud-based solution integrating cutting-edge machine learning frameworks for mapping several seabed classes, validated for archeological, geo-hazards, energy, and other applications. Currently supporting R2Sonic multispectral multibeam echosunders.
   
   
 ### Quality Control / Quality Assurance
