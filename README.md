@@ -41,7 +41,7 @@ Contributions are welcome. Add links through pull requests or create an issue to
 
 Hydrography is one of many elements at the foundation of the term hydrospatial. These include all the Spatio-temporal physical, biological and chemical data, information and knowledge related to their position on or in the water: surface, column, depth, bottom and sub-bottom of the oceans, estuaries,  rivers, lakes, the coastal zones, and the flooding areas. Safety and efficiency of navigation are part of hydrospatial amongst many other scientific, technical, social, environmental and economic activities. 
 
-Visit [the Hydrospatial Movement Club & Community (HMCC) portal](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) for  news and updates in the form of a Storymap.
+Visit the [Hydrospatial Movement Club & Community (HMCC)](https://storymaps.arcgis.com/stories/418dde64aff54c41b2d94efffc6ba6c0?play%3Dtrue%26speed%3Dmedium) portal for  news and updates in the form of a Storymap and join the [HMCC Linkedin group](https://www.linkedin.com/groups/12556091/) 
 
 
 ## **Free and Open Software for Ocean Mapping (FOSSOM)** 
