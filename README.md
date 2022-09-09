@@ -237,7 +237,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [UT-2](https://ut-2.com/), Underwater Technology-2, is an online magazine about subsea equipment and underwater robotics.
 
 
-### Youtube and Vimeo channels
+### Video sharing and podcasting.
 - [Center for Coastal and Ocean Mapping/Joint Hydrographic Center](https://vimeo.com/ccomjhc) presentations and seminars videos on Vimeo
 - [The Hydrographic Society UK & Ireland](https://www.youtube.com/channel/UCSxKTu0_ixHn-aJlaaBuH2w/videos) presentations on Youtube
 - [The Hydrographic Society in Scotland](https://www.youtube.com/channel/UCVffHaIm-6RTZUP-JNKDaWw) videos and webinars on Youtube.
@@ -250,6 +250,7 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 - [Seabed 2030 South and West Pacific Regional Data Centre](https://www.youtube.com/channel/UCCA1Cv9eWToOQN-qthqw4lQ/videos) YT channel.
 - [Hydrographic Surveyor ](https://www.youtube.com/c/HydrographicSurveyor/videos) Youtube channel contains numerous videos on hydrographic theory and practice in Indonesian language. 
 - [5 Minutes Modules](https://www.youtube.com/channel/UC3wBsNfio9eS1l7v19I8hvA/about) is a Youtube channel covering all kind of difficult concepts in Hydrography in a way that is easy to understand.
+- [Mapscaping](https://mapscaping.com/) is a weekly podcast featuring interesting people doing amazing work in the geospatial world, ocean mapping included. 
 
 ### Miscellanea
 -  [OpenCTD](https://github.com/OceanographyforEveryone/OpenCTD) is a low-cost, open-source CTD for researchers and citizen scientists.
