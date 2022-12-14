@@ -3,7 +3,9 @@
 # **Awesome Hydrospatial**
 
 An awesome and curated list of applications, tools, and documentation aimed to "map" the publicly available resources for «all the blue of our blue planet, its continuous zones; the Hydrospatial Domain» & Ocean Mapping community.
+
 This repository hosts a summary of the Free and Open Software for Ocean Mapping (FOSSOM) capabilities, which is the result of a research effort of *Instituto Hidrografico de la Marina* (Spain) in collaboration with UNH/CCOM (USA)
+
 Contributions are welcome. Add links through pull requests or create an issue to start a discussion.
 
 
