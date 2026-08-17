@@ -106,6 +106,10 @@ FOSSOM is developed by institutions, researchers and enthusiasts, providing tool
 
 - [CruisePack](https://www.ncei.noaa.gov/products/cruisepack)  is a data packaging and metadata gathering software tool to simplify submission of cruise-based data. CruisePack has a simple interface to control packager operation and metadata entry. Once the metadata entry is complete, data packaging is automatic. Although CruisePack is intended to comply with NCEI, it can be easily adapted for other organizations since it uses  a SQLite database under the hood.
 
+- [Seascape](https://github.com/openwatersio/seascape) is an open-source pipeline that merges GEBCO with regional high-resolution sources (NOAA S-102, CUDEM, EMODnet, and others) into free web map tiles: a Terrarium-encoded raster DEM for depth shading and hillshade, and vector tiles with depth contours, spot soundings, and drying areas. A free hosted endpoint serves the tiles with TileJSON and a ready-made nautical MapLibre style.
+
+- [Seamap](https://github.com/openwatersio/seamap) renders OpenStreetMap seamark data into nautical chart tiles with a Planetiler profile and a MapLibre style: buoys and beacons with IALA colours and topmarks, lights with sector arcs and characteristics, rocks, wrecks and obstructions, traffic separation schemes, and shore facilities, over Seascape's depth shading and contours. Rebuilt weekly from the planet file, served free with no API key, and published as dated PMTiles archives for offline use.
+
 
 ### Enhanced visualization
 - The [CCOM Data Visualization and Interaction Tools](https://ccom.unh.edu/vislab/tools/), developed at the Visualization Laboratory, include VR Point Cloud Editor, Point Cloud Plugin for Unity, BAG Loader Unity Plugin, 3d Flight Unity Script and Coral Viz WebGl Viewer
